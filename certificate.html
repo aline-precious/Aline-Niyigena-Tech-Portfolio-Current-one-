@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aline Niyigena — Certificates</title>
+
+  <!-- Tailwind via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .serif { font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif; }
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-[#cbb9cd] text-slate-900">
+
+  <!-- Header (same style as home) -->
+  <header class="sticky top-0 z-20 backdrop-blur bg-[#f4f2ed]/80 border-b">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="#home" class="serif text-2xl tracking-tight">Aline Niyigena’s portfolio</a>
+      <nav class="hidden md:flex items-center gap-8 text-sm">
+        <a href="index.html" class="hover:opacity-70 transition">Home</a>
+        <a href="#about.html" class="hover:opacity-70 transition">About</a>
+        <a href="index.html#projects" class="hover:opacity-70 transition">Projects</a>
+        <a href="experiences.html" class="hover:opacity-70 transition">Experiences</a>
+        <a href="certificate.html" class="hover:opacity-70 transition">Certificates</a>
+        <a href="https://substack.com/@alinep" class="hover:opacity-70 transition">Blog Articles </a>
+        <a href="index.html#contact" class="rounded-2xl px-5 py-2 bg-black text-white">Get In Touch</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 py-16">
+
+    <!-- Top heading section -->
+    <section id="certificates" class="mb-16 text-center">
+      <p class="uppercase tracking-[0.25em] text-xs text-slate-500">
+        Licenses &amp; Certifications
+      </p>
+      <h1 class="serif text-3xl md:text-5xl mt-4">
+        Learning to Secure, Analyze &amp; Advocate
+      </h1>
+      <p class="text-sm text-slate-700 max-w-3xl mx-auto mt-5">
+        A curated collection of IBM, NYU, and Model UN experiences that shaped my journey in
+        cybersecurity, data analysis, and diplomacy. Click any certificate to open it in a
+        focused view and read what I learned.
+      </p>
+    </section>
+
+    <!-- Certificates grid -->
+    <section class="grid md:grid-cols-3 gap-8">
+
+      <!-- IBM Threat Intelligence and Hunting -->
+      <article
+        class="group rounded-3xl overflow-hidden shadow-md bg-white cursor-pointer"
+        data-cert
+        data-full="images/cert-ibm-threat-intel-full.jpg"
+      >
+        <!-- full JPEG goes here -->
+        <div class="h-48 bg-cover bg-center"
+             style="background-image: url('images/hunting.png');"></div>
+        <div class="p-4">
+          <h2 class="text-sm font-semibold">IBM: Threat Intelligence and Hunting</h2>
+          <p class="text-xs text-slate-600 mt-2">IBM SkillsBuild • Cyber Threat Intelligence (CTI)</p>
+          <p class="text-xs text-slate-500 mt-1">Credential ID: MDL-457</p>
+        </div>
+      </article>
+
+      <!-- IBM Introduction to Large Language Models -->
+      <article
+        class="group rounded-3xl overflow-hidden shadow-md bg-white cursor-pointer"
+        data-cert
+        data-full="images/cert-ibm-llm-full.jpg"
+        data-title="Introduction to Large Language Models"
+        data-caption="IBM SkillsBuild course on Large Language Models (LLMs). I explored how LLMs are trained, where they are used across industries, and the ethical and security considerations of deploying them in real systems."
+        data-url="URL_TO_IBM_LLM_CREDENTIAL"
+      >
+        <div class="h-48 bg-cover bg-center"
+             style="background-image: url('images/LLM.png');"></div>
+        <div class="p-4">
+          <h2 class="text-sm font-semibold">IBM: Introduction to Large Language Models</h2>
+          <p class="text-xs text-slate-600 mt-2">IBM: SkillsBuild • Large Language Models (LLM)</p>
+          <p class="text-xs text-slate-500 mt-1">Credential ID: MDL-568</p>
+        </div>
+      </article>
+
+      <!-- IBM Level Up Cybersecurity with Generative AI -->
+      <article
+        class="group rounded-3xl overflow-hidden shadow-md bg-white cursor-pointer"
+        data-cert
+        data-full="images/cert-ibm-genai-cyber-full.jpg"
+        data-title="Level Up Cybersecurity with Generative AI"
+        data-caption="Explored how Generative AI can be used in cybersecurity workflows—from accelerating threat analysis to supporting defense strategies—while keeping human judgment at the center of critical decisions."
+        data-url="URL_TO_IBM_GENAI_CYBER_CREDENTIAL"
+      >
+        <div class="h-48 bg-cover bg-center"
+             style="background-image: url('images/genAI.png');"></div>
+        <div class="p-4">
+          <h2 class="text-sm font-semibold">IBM: Level Up Cybersecurity with Generative AI</h2>
+          <p class="text-xs text-slate-600 mt-2">IBM • Cybersecurity &amp; Generative AI</p>
+          <p class="text-xs text-slate-500 mt-1">Credential ID: ALM-COURSE_3947352</p>
+        </div>
+      </article>
+
+      <!-- NYU Cyber Attack Countermeasures -->
+      <article
+        class="group rounded-3xl overflow-hidden shadow-md bg-white cursor-pointer"
+        data-cert
+        data-full="images/cert-nyu-countermeasures-full.jpg"
+        data-title="Cyber Attack Countermeasures (NYU — 98%)"
+        data-caption="Completed NYU’s Cyber Attack Countermeasures with 98%. Studied Bell-LaPadula and Biba models, covert channels, Orange Book compliance, TCB, and landmark cases like Morris & Thompson, strengthening my strategic view of cyber defense."
+        data-url="URL_TO_NYU_COUNTERMEASURES_CREDENTIAL"
+      >
+        <div class="h-48 bg-cover bg-center"
+             style="background-image: url('images/COUNTER.png');"></div>
+        <div class="p-4">
+          <h2 class="text-sm font-semibold">NYU: Cyber Attack Countermeasures</h2>
+          <p class="text-xs text-slate-600 mt-2">New York University • Advanced Cybersecurity</p>
+          <p class="text-xs text-slate-500 mt-1">Credential ID: WAEPMS714OJ9</p>
+        </div>
+      </article>
+
+      <!-- NYU Strategic Cybersecurity / Intro to Cyber Attacks -->
+      <article
+        class="group rounded-3xl overflow-hidden shadow-md bg-white cursor-pointer"
+        data-cert
+        data-full="images/cert-nyu-strategic-cyber-full.jpg"
+        data-title="Cybersecurity Certificate – Strategic Cybersecurity: Threats, Cryptanalysis, and Risk Management"
+        data-caption="Foundational cybersecurity course focused on the CIA triad, emerging threats, fraud, and the limits of vulnerability testing. Practiced mapping assets to threats and performing basic cryptanalysis on substitution ciphers."
+        data-url="URL_TO_NYU_STRATEGIC_CYBER_CREDENTIAL"
+      >
+        <div class="h-48 bg-cover bg-center"
+             style="background-image: url('images/cyberATTACK.png');"></div>
+        <div class="p-4">
+          <h2 class="text-sm font-semibold">NYU: Strategic Cybersecurity: Threats &amp; Cryptanalysis</h2>
+          <p class="text-xs text-slate-600 mt-2">New York University • Cybersecurity</p>
+          <p class="text-xs text-slate-500 mt-1">Credential ID: 3O5OHVELQ0A3</p>
+        </div>
+      </article>
+
+      <!-- IBM Cyber Academy Fundamentals -->
+      <article
+        class="group rounded-3xl overflow-hidden shadow-md bg-white cursor-pointer"
+        data-cert
+        data-full="images/cert-ibm-cyber-academy-full.jpg"
+        data-title='Cyber Academy Fundamentals – "Un giorno di ordinaria follia"'
+        data-caption="Scenario-based IBM Cyber Academy experience simulating an intense attack day. Worked across cybersecurity, cyber defense, cyberlaw, quantum computing, and threat intelligence, building a holistic understanding of modern cyber operations."
+        data-url="URL_TO_IBM_CYBER_ACADEMY_CREDENTIAL"
+      >
+        <div class="h-48 bg-cover bg-center"
+             style="background-image: url('images/cyber.png');"></div>
+        <div class="p-4">
+          <h2 class="text-sm font-semibold">Cyber Academy Fundamentals – “Un giorno di ordinaria follia”</h2>
+          <p class="text-xs text-slate-600 mt-2">IBM • Cybersecurity, Cyber Defense &amp; Cyberlaw</p>
+          <p class="text-xs text-slate-500 mt-1">Credential ID: 2AFFFF0091A3</p>
+        </div>
+      </article>
+
+      <!-- United Network EU – Model United Nations -->
+      <article
+        class="group rounded-3xl overflow-hidden shadow-md bg-white cursor-pointer"
+        data-cert
+        data-full="images/cert-united-network-mun-full.jpg"
+        data-title="United Network EU — Model United Nations Certificate"
+        data-caption="Completed a 3-day intensive Model UN program on the global refugee crisis. Practiced diplomacy, negotiation, formal public speaking, and drafting resolutions within a high-pressure, multicultural environment."
+        data-url="URL_TO_MUN_CREDENTIAL"
+      >
+        <div class="h-48 bg-cover bg-center"
+             style="background-image: url(images/mun.png);"></div>
+        <div class="p-4">
+          <h2 class="text-sm font-semibold">United Network EU — Model United Nations</h2>
+          <p class="text-xs text-slate-600 mt-2">United Network EU • Diplomacy &amp; International Politics</p>
+          <p class="text-xs text-slate-500 mt-1">Issued May 2025</p>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- Ongoing Certifications -->
+    <section class="max-w-4xl mx-auto px-4 mt-12 mb-6">
+      <div class="bg-white/40 backdrop-blur-sm rounded-2xl p-6 shadow-sm border border-white/30">
+        <p class="uppercase tracking-widest text-[10px] text-slate-600 text-center mb-3">
+          Ongoing Certifications
+        </p>
+
+        <div class="space-y-2 text-sm text-slate-800">
+          <div class="flex items-center justify-between bg-white/50 backdrop-blur-sm rounded-xl px-4 py-2">
+            <span>NYU – Real-Time Cyber Threat Detection and Mitigation</span>
+            <span class="text-slate-600 text-xs">93% completed</span>
+          </div>
+
+          <div class="flex items-center justify-between bg-white/50 backdrop-blur-sm rounded-xl px-4 py-2">
+            <span>NYU – Enterprise and Infrastructure Security</span>
+            <span class="text-slate-600 text-xs">93% completed</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Modal for viewing certificate -->
+  <div
+    id="cert-modal"
+    class="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-30 hidden"
+  >
+    <div class="bg-[#f4f2ed] rounded-3xl max-w-3xl w-full mx-4 overflow-hidden shadow-xl relative">
+      <!-- Close button -->
+      <button
+        id="cert-modal-close"
+        class="absolute top-3 right-3 text-xs px-3 py-1 rounded-full bg-black text-white"
+      >
+        Close
+      </button>
+
+      <div class="grid md:grid-cols-2 gap-0">
+        <!-- Certificate image -->
+        <div class="bg-black/5 flex items-center justify-center p-3">
+          <img
+            id="cert-modal-img"
+            src=""
+            alt="Certificate"
+            class="max-h-[420px] w-full object-contain rounded-2xl"
+          />
+        </div>
+
+        <!-- Caption / info -->
+        <div class="p-6 text-sm text-slate-800 flex flex-col justify-between">
+          <div>
+            <h2 id="cert-modal-title" class="serif text-xl mb-3">Certificate Title</h2>
+            <p id="cert-modal-caption" class="text-xs leading-relaxed">
+              This is where the description of what I learned in this certificate will appear.
+            </p>
+          </div>
+          <div class="mt-4">
+            <a
+              id="cert-modal-link"
+              href="#"
+              target="_blank"
+              class="inline-block rounded-2xl px-4 py-2 bg-black text-white text-xs"
+            >
+              View Credential →
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Simple JS to power the modal -->
+  <script>
+    const modal = document.getElementById('cert-modal');
+    const modalImg = document.getElementById('cert-modal-img');
+    const modalTitle = document.getElementById('cert-modal-title');
+    const modalCaption = document.getElementById('cert-modal-caption');
+    const modalLink = document.getElementById('cert-modal-link');
+    const modalClose = document.getElementById('cert-modal-close');
+
+    // Open modal on card click
+    document.querySelectorAll('[data-cert]').forEach(card => {
+      card.addEventListener('click', () => {
+        const full = card.getAttribute('data-full');
+        const title = card.getAttribute('data-title');
+        const caption = card.getAttribute('data-caption');
+        const url = card.getAttribute('data-url');
+
+        modalImg.src = full || '';
+        modalTitle.textContent = title || 'Certificate';
+        modalCaption.textContent = caption || '';
+
+        if (url) {
+          modalLink.href = url;
+          modalLink.classList.remove('pointer-events-none', 'opacity-50');
+        } else {
+          modalLink.href = '#';
+          modalLink.classList.add('pointer-events-none', 'opacity-50');
+        }
+
+        modal.classList.remove('hidden');
+      });
+    });
+
+    // Close modal (button)
+    modalClose.addEventListener('click', () => {
+      modal.classList.add('hidden');
+    });
+
+    // Close modal when clicking outside the inner box
+    modal.addEventListener('click', (event) => {
+      if (event.target === modal) {
+        modal.classList.add('hidden');
+      }
+    });
+  </script>
+
+  <!-- Footer -->
+  <footer class="bg-[#877386] pt-10 pb-14">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-8 items-end">
+      <div class="text-lg serif">Aline ❤</div>
+      <div class="text-xs text-slate-700 space-y-1">
+        <div>Address: Via cambridge, 115, Rome</div>
+        <div>Phone number: +39 351 978 3874</div>
+        <div>Email: alineprecious.n@gmail.com</div>
+      </div>
+      <div class="text-xs text-right text-slate-700">
+        Built with love ❤
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

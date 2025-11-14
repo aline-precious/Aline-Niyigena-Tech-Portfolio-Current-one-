@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aline Niyigena — Experience</title>
+
+  <!-- Tailwind via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .serif { font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif; }
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-gradient-to-b from-[#633c59] via-[#5e3e3a] to-[#261519] text-slate-100">
+
+  <!-- Header with avatar -->
+  <header class="sticky top-0 z-20 backdrop-blur bg-black/30 border-b border-white/10">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <img
+          src="images/Aline.jpeg"
+          alt="Aline Niyigena"
+          class="w-9 h-9 rounded-full object-cover border border-white/70"
+        />
+        <a href="index.html#home" class="serif text-xl tracking-tight">
+          Aline Niyigena’s portfolio
+        </a>
+      </div>
+      <nav class="hidden md:flex items-center gap-8 text-sm">
+        <a href="index.html" class="hover:opacity-70 transition">Home</a>
+        <a href="about.html" class="hover:opacity-70 transition">About</a>
+        <a href="#projects" class="hover:opacity-70 transition">Projects</a>
+        <a href="experiences.html" class="hover:opacity-70 transition">Experiences</a>
+        <a href="certificate.html" class="hover:opacity-70 transition">Certificates</a>
+        <a href="https://substack.com/@alinep" class="hover:opacity-70 transition">Blog Articles </a>
+        <a href="#contact" class="rounded-2xl px-5 py-2 bg-black text-white hover:bg-white hover:text-black transition">
+          Get in touch
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <!-- ABOUT (full-width background) -->
+    <section id="about"
+      class="relative w-full min-h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center py-24"
+      style="background-image: url('images/Aline.jpeg');"
+    >
+      <!-- overlay for readability -->
+      <div class="absolute inset-0 bg-black/40"></div>
+
+      <!-- content -->
+      <div class="relative max-w-4xl mx-auto px-6">
+        <div class="bg-white/20 backdrop-blur-md rounded-3xl p-8 md:p-10 shadow-lg text-white">
+          <h2 class="serif text-4xl mb-6">ABOUT ME</h2>
+
+          <div class="space-y-5 text-sm leading-relaxed text-white/90">
+            <p>
+              I’m a creative and impact-driven Global Governance student specializing in Science and Technology at Tor Vergata University of Rome. Passionate about technology and its power to shape a better world, I explore the intersections of diplomacy, cybersecurity, data, and development to understand how innovation can strengthen resilience, inform policy, and drive inclusive progress.
+            </p>
+            <p>
+              In 2025, I participated in the IBM Cyber Academy, an experience that deepened my enthusiasm for cybersecurity and innovation. Since then, I’ve completed advanced NYU certifications (including Cyber Attack Countermeasures, with distinction) and developed a GitHub project on cryptography—experiences that sharpened both my technical and analytical skills while reinforcing curiosity for real-world problem solving.
+            </p>
+            <p>
+              As a diplomatic advocate and committed feminist, I care deeply about inclusive leadership and amplifying underrepresented voices. I thrive in collaborative, mission-driven environments where I can learn, mentor, and co-create solutions that uplift communities. With curiosity, empathy, and optimism, I’m building a career grounded in global impact and meaningful change.
+            </p>
+            <p>
+              Looking ahead, I’m eager to explore internship opportunities in cybersecurity and data innovation—particularly within IBM Italy—where I can continue growing while contributing to meaningful projects.
+            </p>
+            <p>
+              Let’s connect if you’re working in technology, cybersecurity, policy, or global innovation.
+            </p>
+          </div>
+
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="#projects" class="rounded-2xl px-5 py-2 bg-white text-black font-medium">Projects</a>
+        <a href="Aline Niyigena_Resume.docx.pdf" download class="rounded-2xl px-5 py-2 border border-white text-white">Download CV</a>
+            <a href="#contact" class="rounded-2xl px-5 py-2 bg-black text-white hover:bg-white hover:text-black transition">
+              Get in touch
+            </a>
+          </div>
+
+          <p class="mt-4 text-xs text-white/80 italic tracking-wide">
+            Open to internships and collaborations in cybersecurity and technology.
+          </p>
+        </div>
+      </div>
+
+      <!-- soft fade into next section -->
+      <div class="pointer-events-none absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-[#f4f2ed]"></div>
+    </section>
+
+    <!-- Badges -->
+    <section class="bg-[#131826] py-16">
+      <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-10 text-white text-center">
+        <div>
+          <div class="p-6 rounded-full border border-white/30 w-28 h-28 mx-auto grid place-items-center text-3xl">⌖</div>
+          <p class="mt-3 font-medium">Over 5 projects worked on</p>
+          <p class="text-xs text-white/70">Finished & ongoing</p>
+        </div>
+        <div>
+          <div class="p-6 rounded-full border border-white/30 w-28 h-28 mx-auto grid place-items-center text-3xl">❤</div>
+          <p class="mt-3 font-medium">3+ Years in Tech</p>
+          <p class="text-xs text-white/70">Personal projects, apps, ideas</p>
+        </div>
+        <div>
+          <div class="p-6 rounded-full border border-white/30 w-28 h-28 mx-auto grid place-items-center text-3xl">👥</div>
+          <p class="mt-3 font-medium">Community Activist</p>
+          <p class="text-xs text-white/70">Diplomacy & child advocacy</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="max-w-6xl mx-auto px-4 py-20">
+      <h3 class="serif text-5xl text-center mb-14">🛠️ Skills</h3>
+      <div class="grid md:grid-cols-2 gap-10 text-slate-800 text-sm leading-relaxed">
+        <div>
+          <p><strong>Languages:</strong> R, Python, C++, Java</p>
+          <p><strong>Web/Backend:</strong> FastAPI, SQLAlchemy, Uvicorn</p>
+          <p><strong>Data &amp; Analytics:</strong> R (tidyverse, ggplot2), Time Series Analysis, ARIMA</p>
+          <p><strong>Other:</strong> Git, GitHub, Markdown, Project Management</p>
+        </div>
+        <div>
+          <p><strong>🌱 Currently Learning:</strong></p>
+          <ul class="list-disc ml-5 space-y-1">
+            <li>Advanced cryptography &amp; security concepts</li>
+            <li>Python backend development</li>
+            <li>Quantum computing basics &amp; cybersecurity applications</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section id="projects" class="max-w-6xl mx-auto px-4 py-20">
+      <h3 class="serif text-5xl text-center mb-14">🌟 Projects</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <!-- CryptoTools -->
+        <article
+          class="rounded-3xl overflow-hidden shadow-md flex flex-col justify-between bg-cover bg-center"
+          style="background-image: url('https://pbs.twimg.com/media/GqwWZnAW8AA_XES.jpg');"
+        >
+          <div class="bg-black/40 backdrop-blur-sm h-full p-6 flex flex-col justify-between rounded-3xl">
+            <div>
+              <h4 class="text-lg font-semibold">CryptoTools — Hill Cipher &amp; Cryptanalysis Suite 🔐</h4>
+              <p class="text-sm text-slate-100 mt-3">
+                An R-based toolkit exploring matrix cryptography, modular arithmetic, and key recovery simulations.
+              </p>
+              <ul class="list-disc ml-5 mt-3 text-xs text-slate-200 space-y-1">
+                <li>Frequency analysis &amp; brute-force decryption</li>
+                <li>Matrix inversion mod 26 logic</li>
+                <li>Ready-to-demo on GitHub</li>
+              </ul>
+              <p class="mt-3 text-xs text-slate-200 italic">Tech: R, ggplot2, testthat, R Markdown</p>
+            </div>
+            <a href="#" class="mt-4 inline-block underline text-sm text-slate-50 font-medium">GitHub Link →</a>
+          </div>
+        </article>
+
+        <!-- Time Series Analysis -->
+        <article
+          class="rounded-3xl overflow-hidden shadow-md flex flex-col justify-between bg-cover bg-center"
+          style="background-image: url('https://cdn.educba.com/academy/wp-content/uploads/2020/05/Time-Series-Analysis.jpg');"
+        >
+          <div class="bg-black/40 backdrop-blur-sm h-full p-6 flex flex-col justify-between rounded-3xl">
+            <div>
+              <h4 class="text-lg font-semibold">Time Series Analysis Report 📈</h4>
+              <p class="text-sm text-slate-100 mt-3">
+                A reproducible RStudio project analyzing CO₂ and inflation data using ARIMA forecasting.
+              </p>
+              <ul class="list-disc ml-5 mt-3 text-xs text-slate-200 space-y-1">
+                <li>Decomposition and trend analysis</li>
+                <li>Forecasting with ARIMA</li>
+                <li>Automated report generation</li>
+              </ul>
+              <p class="mt-3 text-xs text-slate-200 italic">Tech: R, ARIMA, ggplot2, R Markdown</p>
+            </div>
+            <a href="#" class="mt-4 inline-block underline text-sm text-slate-50 font-medium">GitHub Link →</a>
+          </div>
+        </article>
+
+        <!-- Mini Amazon -->
+        <article
+          class="rounded-3xl overflow-hidden shadow-md flex flex-col justify-between bg-cover bg-center"
+          style="background-image: url('https://www.spedireadesso.com/images/it/blog/e-commerce/shopping-online-spedireadesso.webp');"
+        >
+          <div class="bg-black/40 backdrop-blur-sm h-full p-6 flex flex-col justify-between rounded-3xl">
+            <div>
+              <h4 class="text-lg font-semibold">Mini Amazon — Order Management API 🛒</h4>
+              <p class="text-sm text-slate-100 mt-3">
+                A FastAPI backend managing customers, orders, and items with complete CRUD operations.
+              </p>
+              <ul class="list-disc ml-5 mt-3 text-xs text-slate-200 space-y-1">
+                <li>Order validation &amp; automatic totals</li>
+                <li>SQLAlchemy ORM backend</li>
+                <li>JSON error handling with Pydantic</li>
+              </ul>
+              <p class="mt-3 text-xs text-slate-200 italic">Tech: Python, FastAPI, SQLAlchemy, Pydantic, Uvicorn</p>
+            </div>
+            <a href="#" class="mt-4 inline-block underline text-sm text-slate-50 font-medium">GitHub Link →</a>
+          </div>
+        </article>
+
+        <!-- FinBot -->
+        <article
+          class="rounded-3xl overflow-hidden shadow-md flex flex-col justify-between bg-cover bg-center"
+          style="background-image: url('images/bot.jpeg');"
+        >
+          <div class="bg-black/40 backdrop-blur-sm h-full p-6 flex flex-col justify-between rounded-3xl">
+            <div>
+              <h4 class="text-lg font-semibold">FinBot — Financial Literacy Chatbot 💬</h4>
+              <p class="text-sm text-slate-100 mt-3">
+                A conversational AI chatbot that helps users learn personal finance, budgeting, and investment concepts.
+              </p>
+              <ul class="list-disc ml-5 mt-3 text-xs text-slate-200 space-y-1">
+                <li>FastAPI backend with OpenAI integration</li>
+                <li>React frontend for conversation flow</li>
+                <li>Goal tracking &amp; micro-investment simulations</li>
+              </ul>
+              <p class="mt-3 text-xs text-slate-200 italic">Tech: Python, FastAPI, React, HTML, CSS, JavaScript</p>
+            </div>
+            <a href="#" class="mt-4 inline-block underline text-sm text-slate-50 font-medium">GitHub Link →</a>
+          </div>
+        </article>
+
+        <!-- Portfolio Website -->
+        <article
+          class="rounded-3xl overflow-hidden shadow-md flex flex-col justify-between bg-cover bg-center"
+          style="background-image: url('images/profile.jpeg');"
+        >
+          <div class="bg-black/40 backdrop-blur-sm h-full p-6 flex flex-col justify-between rounded-3xl">
+            <div>
+              <h4 class="text-lg font-semibold">Personal Portfolio Website 🌐</h4>
+              <p class="text-sm text-slate-100 mt-3">
+                The responsive website you’re viewing — built to showcase my academic journey, tech skills, and creative design sense.
+              </p>
+              <ul class="list-disc ml-5 mt-3 text-xs text-slate-200 space-y-1">
+                <li>Clean aesthetic with TailwindCSS</li>
+                <li>Fully responsive layout</li>
+                <li>Deployed &amp; ready for expansion</li>
+              </ul>
+              <p class="mt-3 text-xs text-slate-200 italic">Tech: HTML, CSS, TailwindCSS, Responsive Design</p>
+            </div>
+            <a href="#" class="mt-4 inline-block underline text-sm text-slate-50 font-medium">GitHub Link →</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- GitHub Stats -->
+    <section id="github" class="max-w-6xl mx-auto px-4 py-20 text-center">
+      <h3 class="serif text-4xl mb-8">📊 GitHub Stats</h3>
+      <p class="text-sm text-slate-200 mb-8 max-w-2xl mx-auto">
+        Overview of my current work and learning in open-source and academic projects.
+      </p>
+
+      <div class="grid md:grid-cols-3 gap-8 text-left text-slate-800">
+        <div class="rounded-3xl bg-white shadow-sm p-6 border border-slate-100">
+          <h4 class="font-semibold mb-2">💻 Repositories</h4>
+          <p class="text-3xl font-bold text-[#131826] mb-1">12</p>
+          <p class="text-sm text-slate-600">Including CryptoTools, FinBot, and Time Series Analysis.</p>
+        </div>
+
+        <div class="rounded-3xl bg-white shadow-sm p-6 border border-slate-100">
+          <h4 class="font-semibold mb-2">⭐ Highlights</h4>
+          <ul class="list-disc ml-5 space-y-1 text-sm">
+            <li>Featured R project: <em>CryptoTools</em> — matrix-based cryptography toolkit</li>
+            <li>FastAPI backend: <em>Mini Amazon API</em></li>
+            <li>RStudio report: <em>Time Series Forecasting</em></li>
+          </ul>
+        </div>
+
+        <div class="rounded-3xl bg-white shadow-sm p-6 border border-slate-100">
+          <h4 class="font-semibold mb-2">📈 Activity Snapshot</h4>
+          <ul class="list-disc ml-5 space-y-1 text-sm">
+            <li>120+ commits in 2025</li>
+            <li>4 collaborative repositories</li>
+            <li>Focus areas: Data Science, Cybersecurity, Backend Systems</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-10 text-sm text-slate-200">
+        <p><strong>Currently working on:</strong> building a portfolio of open-source data security and analytics tools.</p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="bg-[#131826] py-20">
+      <div class="max-w-4xl mx-auto px-6 text-center text-white">
+        <h3 class="serif text-4xl mb-4">📮 Get in touch</h3>
+        <p class="text-sm text-white/70 max-w-xl mx-auto mb-10">
+          Whether it's cybersecurity, data, policy, research, internships, or collaborative projects —
+          I’d love to connect.
+        </p>
+
+        <div class="grid gap-6 md:grid-cols-3 text-left">
+          <!-- Email -->
+          <div class="bg-white/10 p-6 rounded-3xl backdrop-blur border border-white/10">
+            <p class="text-xs uppercase tracking-wide text-white/50 mb-1">Email</p>
+            <a href="mailto:alineprecious.n@gmail.com" class="text-sm font-medium hover:underline">
+              alineprecious.n@gmail.com
+            </a>
+          </div>
+
+          <!-- LinkedIn -->
+          <div class="bg-white/10 p-6 rounded-3xl backdrop-blur border border-white/10">
+            <p class="text-xs uppercase tracking-wide text-white/50 mb-1">LinkedIn</p>
+            <a
+              href="https://www.linkedin.com/in/aline-niyigena-"
+              target="_blank"
+              class="text-sm font-medium hover:underline"
+            >
+              linkedin.com/in/aline-niyigena
+            </a>
+          </div>
+
+          <!-- GitHub -->
+          <div class="bg-white/10 p-6 rounded-3xl backdrop-blur border border-white/10">
+            <p class="text-xs uppercase tracking-wide text-white/50 mb-1">GitHub</p>
+            <a
+              href="https://github.com/aline-precious"
+              target="_blank"
+              class="text-sm font-medium hover:underline"
+            >
+              github.com/aline-precious
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#877386] pt-10 pb-14">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-8 items-end">
+      <div class="text-lg serif">Aline ❤</div>
+      <div class="text-xs text-slate-700 space-y-1">
+        <div>Address: Via cambridge, 115, Rome</div>
+        <div>Phone number: +39 351 978 3874</div>
+        <div>Email: alineprecious.n@gmail.com</div>
+      </div>
+      <div class="text-xs text-right text-slate-700">
+        Built with love ❤
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
